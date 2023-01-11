@@ -1,29 +1,31 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <HelloWorld />
       <v-content>
-      <HeroPhoto/>
-    </v-content>
+        <HeroPhoto />
+        <GaleryPhoto />
+      </v-content>
     </v-main>
-   
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import HeroPhoto from './components/HeroPhoto.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import HeroPhoto from "./components/HeroPhoto.vue";
+import GaleryPhoto from "./components/GaleryPhoto.vue";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     HelloWorld,
-    HeroPhoto
+    HeroPhoto,
+    GaleryPhoto
   },
 
   data: () => ({
     //
-  }),
-}
+  })
+};
 </script>
