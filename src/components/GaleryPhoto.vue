@@ -1,7 +1,7 @@
 <template>
-  <v-container>
-    <div class="block galleryBlock">
-        <h2 class="text-center">Gallery</h2>
+  <div class="block galleryBlock">
+    <v-container>
+      <h2 class="text-center">Gallery</h2>
       <v-row>
         <v-col
           v-for="item in items"
@@ -21,8 +21,8 @@
           </v-img>
         </v-col>
       </v-row>
-    </div>
-  </v-container>
+    </v-container>
+  </div>
 </template>
 
 <script>

@@ -5,6 +5,7 @@
       <v-content>
         <HeroPhoto />
         <GaleryPhoto />
+        <LaterPostPhoto/>
       </v-content>
     </v-main>
   </v-app>
@@ -14,6 +15,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import HeroPhoto from "./components/HeroPhoto.vue";
 import GaleryPhoto from "./components/GaleryPhoto.vue";
+import LaterPostPhoto from "./components/LaterPostPhoto.vue";
 
 export default {
   name: "App",
@@ -21,7 +23,8 @@ export default {
   components: {
     HelloWorld,
     HeroPhoto,
-    GaleryPhoto
+    GaleryPhoto,
+    LaterPostPhoto
   },
 
   data: () => ({
